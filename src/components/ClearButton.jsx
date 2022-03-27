@@ -3,9 +3,9 @@ import '../styles/ClearButton.css';
 
 const ClearButton = (props) => {
   return (
-    <div className="clear-button">
+    <button className="clear-button" onClick={props.doClick}>
       {props.children}
-    </div>
+    </button>
   );
 }
 
